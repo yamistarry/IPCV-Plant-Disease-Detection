@@ -94,12 +94,6 @@ The multiclass confusion matrix was generated using `sklearn.metrics` and render
 
 ![Multiclass Confusion Matrix](confusion_matrix.png)
 
-### Academic & Viva Discussion: Why Is Test Accuracy So High?
-1. **PlantVillage Dataset Characteristics**: The PlantVillage benchmark consists of standardized laboratory specimen photographs taken against uniform, controlled backgrounds (gray or black backing). This eliminates complex natural occlusion, shadows, or background clutter, allowing the convolutional kernels to focus directly on leaf contours and lesion signatures.
-2. **Transfer Learning Leverage**: MobileNetV2 was pre-trained on ImageNet (1.4 million natural images), meaning it already possessed generalized low-level edge, gradient, and texture detectors. Fine-tuning only required adapting the high-level semantic layers to agricultural lesions.
-3. **Generalization Proof**: The model achieved an extremely low test loss (**0.0077**) without divergence between training and validation loss curves, confirming that the network learned genuine discriminative disease markers rather than memorizing training instances.
-
----
 
 ## 5. Project Folder Structure
 
