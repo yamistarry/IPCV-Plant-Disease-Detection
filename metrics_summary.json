@@ -1,0 +1,86 @@
+{
+    "test_loss": 0.0077,
+    "test_accuracy": 99.78,
+    "total_test_samples": 1851,
+    "classes": [
+        "Pepper__bell___Bacterial_spot",
+        "Pepper__bell___healthy",
+        "Potato___Early_blight",
+        "Potato___Late_blight",
+        "Potato___healthy",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "Tomato___healthy"
+    ],
+    "classification_report": {
+        "Pepper__bell___Bacterial_spot": {
+            "precision": 0.9934640522875817,
+            "recall": 1.0,
+            "f1-score": 0.9967213114754099,
+            "support": 152.0
+        },
+        "Pepper__bell___healthy": {
+            "precision": 1.0,
+            "recall": 0.9959839357429718,
+            "f1-score": 0.9979879275653923,
+            "support": 249.0
+        },
+        "Potato___Early_blight": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 162.0
+        },
+        "Potato___Late_blight": {
+            "precision": 1.0,
+            "recall": 0.9931506849315068,
+            "f1-score": 0.9965635738831615,
+            "support": 146.0
+        },
+        "Potato___healthy": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 18.0
+        },
+        "Tomato___Early_blight": {
+            "precision": 0.9921259842519685,
+            "recall": 1.0,
+            "f1-score": 0.9960474308300395,
+            "support": 126.0
+        },
+        "Tomato___Late_blight": {
+            "precision": 0.9964028776978417,
+            "recall": 0.992831541218638,
+            "f1-score": 0.9946140035906643,
+            "support": 279.0
+        },
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 473.0
+        },
+        "Tomato___healthy": {
+            "precision": 0.9959514170040485,
+            "recall": 1.0,
+            "f1-score": 0.9979716024340771,
+            "support": 246.0
+        },
+        "accuracy": 0.9978390059427337,
+        "macro avg": {
+            "precision": 0.9975493701379379,
+            "recall": 0.9979962402103464,
+            "f1-score": 0.9977673166420828,
+            "support": 1851.0
+        },
+        "weighted avg": {
+            "precision": 0.9978470348050537,
+            "recall": 0.9978390059427337,
+            "f1-score": 0.9978385805403295,
+            "support": 1851.0
+        }
+    },
+    "timestamp": "2026-10-27 15:04:07"
+}
