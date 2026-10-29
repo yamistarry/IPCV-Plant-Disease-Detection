@@ -172,3 +172,7 @@ This will automatically refresh `mobilenet_tomato.pth`, `confusion_matrix.png`, 
 - **Laboratory vs. Field Imagery**: PlantVillage images feature single leaves placed on flat, neutral backplates. In real-world agricultural conditions, camera feeds capture overlapping canopies, moving insects, weeds, soil, and direct sunlight glare. Integrating "in-the-wild" datasets like **PlantDoc** is the next step to improve field robustness.
 - **Micro-Lesion Sensitivity**: K-Means clustering can struggle when symptoms are in the earliest stages (microscopic bacterial pinpricks $< 5$ pixels). Incorporating multi-scale feature pyramids or attention gates would help detect early-stage infections.
 - **Embedded & Edge Deployment**: The current model architecture has ~3.5 million parameters. Future work involves quantizing the weights to 8-bit integers (PyTorch INT8 / ONNX Runtime) and deploying the pipeline onto a **Raspberry Pi 4 / 5** or an Android application for offline in-field scouting without cellular reception.
+
+
+### Dataset link
+https://github.com/ai-agriculture-circuits-and-systems/plant_village.git
